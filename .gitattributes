@@ -1,0 +1,29 @@
+# Semua file teks akan pakai LF (seragam, enak kalau pindah OS)
+* text=auto eol=lf
+
+# Pastikan script dan kode selalu LF
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.json text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+
+# Windows batch file tetap CRLF (biar bisa jalan di Windows)
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Jangan konversi file biner
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.mp4  binary
+*.mp3  binary
+*.wav  binary
+*.zip  binary
+*.exe  binary
